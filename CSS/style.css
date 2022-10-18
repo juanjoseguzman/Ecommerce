@@ -1,0 +1,56 @@
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 992px
+    margin 0 auto;
+}
+img.logo{
+    max-width: 240px;
+}
+
+header .header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+.cabezera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .header-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+   display: inline;
+    color: green;
+}
+
+.numero-precio{
+    display: inline-block;
+}
+.moneda{
+    display: inline-block;
+}
+nav.menu ul li{
+    display: inline-block;
+}
+nav.menu ul li a{
+    display: block;
+    padding: 16px 8px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container.header-inner{
+    display: flex;
+    justify-content: space-around;
+}

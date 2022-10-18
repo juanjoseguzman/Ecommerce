@@ -1,0 +1,81 @@
+.botas-futbol-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+
+.botas-futbol-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+article{
+    border-radius: 24px;
+    background: white;
+    box-shadow: 0 8px 16px -2px gray;
+}
+p{
+    text-align: center;
+}
+
+.bota {
+    text-align: center;
+}
+.botones-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ofertas{
+    background-image: url(https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    color: var(--primario);
+}
+section.ofertas {
+    text-align: center;
+    height: 400px;
+}
+.ver-todos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+}
+p.filled {
+    font-size: 24px;
+    color: goldenrod;
+}
+p.filled-off{
+    font-size: 24px;
+    color: var(--secundario-claro);
+}
+
+input:checked form{
+    display: block;
+}
+
+.testimonios{
+    display: flex;
+}
+.testimonio-titulo {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.comentario {
+    width: 50vw;
+    border: 2px solid var(--primario);
+    border-radius: 24px;
+}
+.suscribirme {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}

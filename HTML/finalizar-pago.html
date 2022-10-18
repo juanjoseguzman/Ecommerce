@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Pedido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/carrito.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="cabezera">
+            <h1><a href="/HTML/index.html"
+            ><img src="/HTML/logo/logo.png" alt="logo" width="360px"
+          /></a></h1>
+          <div class="botones-compra">
+            <a href="/HTML/carrito.html" class="button">🛒Carrito</a>
+            <a href="/HTML/forma-pago.html" class="button">👝Forma de Pago</a>
+            <a href="/HTML/finalizar-pago.html" class="button">💳Finalizar pedido</a>
+            </div>
+    </header>
+    <div class="finalizar">
+    <h2>Finalizar compra</h2>
+    <button class="button">💳 Marster Card selecionada</button>
+    </div>
+    <div class="envio">
+        <div><h4>Dirección de Envio</h4>
+        <form>
+            <input type="text" name="Nombre" alt="Nombre" placeholder="👨🏼‍💼 Nombre" id="Nombre">
+            <input type="text" name="Apellidos" alt="Apellidos" placeholder="👨🏼‍💼 Apellidos" id="Apllidos"><br>
+            <input type="tel" name="Telefono" alt="Telefono" placeholder="☎️ Telefono" id="Telefono">
+            <input type="email" name="email" alt="email" placeholder="📧 email" id="email"><br>
+            <input type="text" name="calle" alt="calle" placeholder="🏙️ Calle" id="Calle">
+            <input type="number" name="numero" alt="numero" placeholder="🏙️ Número" id="Número"><br>
+            <input type="text" name="provincia" alt="provincia" placeholder="🏙️ provincia" id="Provincia">
+            <input type="number" name="codigo postal" alt="codigo postal" placeholder="🏙️ Codigo Postal" id="Codigo Postal"><br>
+
+            <input type="submit" value="Añadir dirección de envio">
+        </form>
+    
+
+    
+        <img src="icono/envio.png" alt="envio" width="50px">
+            <div><span>Envio gratis en este pedido</span>
+            <p>Por comprar mas de +100€</p>
+            </div><br>
+        <img src="icono/ofertas.png" alt="ofertas" width="50px">
+            <div><span>4,5€ de descuento en tu siguiente compra</span>
+            <p>Aculuma el 1% de descuento en tus compras</p>
+            </div>
+    </div>
+
+    <div>
+        <h5>Resumen del Pedido</h5>
+        <article>
+            <img src="/HTML/fotos/bota amarilla.jfif" alt="botas amarilla" width="100px">Bota Amarilla
+            <span>49,99€</span>
+            <input type="number" min="1" placeholder="1" />
+        </article>
+        <article>
+            <img src="/HTML/fotos/bota verde.jfif" alt="botas verde" width="100px">Botas Verde
+            <span>52,99€</span>
+            <input type="number" min="1" placeholder="1" />
+        </article>
+        <article>
+            <img src="/HTML/fotos/bota negra.jfif" alt="botas negra" width="100px">Botas negra
+            <span>47,99€</span>
+            <input type="number" min="1" placeholder="1" />
+        </article>
+        <h5>Total</h5>
+        <span>150,97€</span>
+        <br>
+        <button type="submit" class="button" value="pagar con tarjeta">Pagar con tarjeta online</button>
+    </div>
+    </div>
+</body>
+</html>

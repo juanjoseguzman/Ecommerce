@@ -1,0 +1,186 @@
+:root{
+    /*colores*/
+    --primario: #254015;
+    --secundario: #cbb26a;
+    --primario-claro: #3B6622;
+    --secundario-claro: #d8c690;
+    --fondo:#fbedc2;
+    --negro: black;
+    --blanco: white;
+    --gris: cacaca; 
+    /*tamaño*/
+    --texto-base: 18px;
+
+    /*espacios*/
+    --s: 10px;
+    --m: 18px;
+    --l: 24px;
+    --xl: 32px;
+    --xxl: 40px;
+}
+header{
+    background-image: url(https://images.unsplash.com/photo-1589487391730-58f20eb2c308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+    background-size: cover;
+    background-position: center;
+    color: var(--primario);
+}
+body{
+    background-color: var(--fondo);
+    font-family: 'Nunito', sans-serif;
+    color: var(--primario);
+}
+
+h1{font-size: 44.79px;}
+h2{font-size: 37.32px;}
+h3{font-size: 31.10px;}
+h4{font-size: 25.92px;}
+h5, .lead{font-size: 21.60px;}
+h6, p{font-size: 18.00px;}
+small{font-size: 15px;}
+
+
+h1{
+    display: inline-block;
+    color: var(--primario);
+}
+.menu li{
+    display: inline;
+}
+.contador {
+    color: var(--primario);
+    position: absolute;
+    top: -16px;
+    right: 16px;
+    text-align: center;
+}
+.circule span {
+    margin-top: 6px;
+    display: inline-block;
+}
+.button{
+    position: relative;
+    background-color: var(--primario-claro);
+    border: 2px solid var(--secundario);
+    border-radius: 24px;
+    color: var(--secundario);
+    padding: var(--m);
+    margin: 24px;
+}
+.carrito{
+    position: relative;
+    font-size: large;
+    color: var(--secundario);
+}
+.carrito.button{
+    background-color: var(--secundario);
+    width: 140px;
+    height: 80px;
+    border-radius: 24px;
+    border: 2px solid var(--primario);
+}
+a.button:hover{
+    color: var(--primario);
+    background-color: var(--secundario);
+    border: 2px solid var(--primario);
+}
+.button:hover{
+    color: var(--primario);
+    background-color: var(--secundario);
+    border: 2px solid var(--primario);
+}
+.circule{
+    background-color: var(--secundario);
+    border: 2px solid var(--primario);
+    border-radius: 50%;
+    font-size: large;
+    position:absolute;
+    width: 30px;
+    height: 30px;    
+}
+.iconos-pagos div{
+    padding: 24px;
+    display: inline-block;
+    margin: 40px 0px;
+}
+.container.header-inner a{
+    color: var(--primario);
+    font-size: var(--m);
+}
+.formularios{
+    display: flex;
+    justify-content: space-around;
+    gap: var(--xxl);
+    margin: 0 var(--xxl);
+}
+.formulario {
+    width: 50%;
+    text-align: center;
+    border: 4px solid var(--primario);
+    border-radius: var(--l);  
+}
+.error {
+    color: red;
+    display: none;
+}
+input{
+    background-color: var(--secundario-claro);
+    width: 70%;
+    color: var(--primario);
+    border-radius: 24px;
+    border: 2px solid var(--primario);
+    padding: var(--s) var(--m);
+    margin: 16px;
+}
+input#buscar {
+    width: 30%;
+    padding: var(--s) var(--m);
+    font-size: large;
+}
+.iconos-pagos {
+    display: flex;
+    justify-content: space-around;
+}
+section.logo-susbribete {
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    color: var(--primario);
+}
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+input#acepto {
+    margin: 0px;
+    width: 10%;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lista {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+.suscribirme {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.seleccion-tarjetas {
+    display: flex;
+    flex-direction: column;
+}
+input[type="radio"]{
+    width: 10px;
+}
+.enlace:hover{
+    text-decoration: 2px underline var(--primario);
+}
+footer {
+    margin-top: 80px;
+}

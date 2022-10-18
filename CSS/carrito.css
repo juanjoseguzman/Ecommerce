@@ -1,0 +1,50 @@
+.botones-compra {
+    display: flex;
+    justify-content: flex-end;
+}
+.mi-carrito {
+    display: flex;
+    justify-content: space-around;
+}
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.carrito {
+    display: flex;
+    justify-content: space-around;
+}
+.resumen{
+    border: 2px solid var(--primario);
+    border-radius: 24px;
+    padding: 40px 32px 40px 32px;
+}
+.resumen {
+    color: var(--primario);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+input[type="number"] {
+    width: 40px;
+}
+span{
+    color: var(--primario);
+}
+.mis-tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+}
+.finalizar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icono-envios {
+    display: flex;
+    justify-content: space-evenly;
+}
+.envio {
+    display: flex;
+    justify-content: space-around;
+}

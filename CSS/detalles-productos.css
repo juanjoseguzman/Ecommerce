@@ -1,0 +1,19 @@
+.bota.amarilla {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    gap: 50px;
+}
+
+input[type="number"] {
+    margin: 24px;
+    width: 48px;
+}
+section.destacadas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+fieldset {
+    width: 50vw;
+}
